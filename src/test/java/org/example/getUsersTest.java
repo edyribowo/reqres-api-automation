@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import static junit.framework.Assert.assertEquals;
 
-public class getUsers {
+public class getUsersTest {
     private int correctId = 2;
     private int invalidId = 99;
 

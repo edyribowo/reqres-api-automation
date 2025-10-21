@@ -1,14 +1,12 @@
 package org.example;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import org.example.models.response.GetUsers;
 import org.example.utils.apiHelper.DeleteUserApi;
-import org.example.utils.apiHelper.GetUsersApi;
 import org.testng.annotations.Test;
 
 import static junit.framework.Assert.assertEquals;
 
-public class deleteUser {
+public class deleteUserTest {
     private int correctId = 2;
     private int invalidId = 99;
 

@@ -4,16 +4,14 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import org.example.models.pojo.GeneralError;
-import org.example.models.response.GetUsers;
 import org.example.models.response.PostRegister;
-import org.example.utils.apiHelper.GetUsersApi;
 import org.example.utils.apiHelper.PostRegisterApi;
 import org.testng.annotations.Test;
 
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertNotNull;
 
-public class register {
+public class registerTest {
     @Test
     public void register() throws JsonProcessingException {
         org.example.models.request.PostRegister postRegister = new org.example.models.request.PostRegister();
